@@ -1,0 +1,29 @@
+body{
+	font-family: arial, sans-serif;
+	color: #333333;
+}
+header{
+	line-height: 70px;
+	background-color: black;
+}
+nav{
+	display: block;
+	overflow: hidden;
+	margin-left: 100px;
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+nav a{
+	background-color: black;
+	color: #cccccc;
+	float: left;
+	text-decoration: none;
+	padding-left: 30px;
+}
+a:hover{
+	text-decoration: underline;
+}
+#wrapper{
+	width: 960px;
+}
