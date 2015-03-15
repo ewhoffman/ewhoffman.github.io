@@ -1,6 +1,7 @@
 body{
 	font-family: arial, sans-serif;
 	color: #333333;
+	background: url("../images/bg.png");
 }
 header{
 	line-height: 70px;
@@ -15,15 +16,33 @@ nav{
 }
 
 nav a{
-	background-color: black;
+	/*background-color: black;*/
 	color: #cccccc;
 	float: left;
 	text-decoration: none;
-	padding-left: 30px;
+	padding-right: 30px;
+	/*margin-left: 10px;*/
 }
 a:hover{
 	text-decoration: underline;
 }
 #wrapper{
 	width: 960px;
+  
+}
+#main{
+	 
+}
+#logo{
+	margin-left: 100px;
+	float: left;
+	overflow: hidden;
+}
+#social{
+	float: right;
+	overflow: hidden;
+	padding: 10px;
+}
+a{
+	text-decoration: none;
 }
