@@ -28,7 +28,6 @@ a:hover{
 }
 #wrapper{
 	width: 960px;
-  
 }
 #main{
 	 
@@ -45,4 +44,61 @@ a:hover{
 }
 a{
 	text-decoration: none;
+}
+section{
+	margin-left: 100px;
+	width: 960px;
+}
+article img{
+	margin-left: 10px;
+	float: right;
+	padding-top: 15px;
+	
+}
+article{
+	border: 1px solid;
+	margin-left: 100px;
+	width: 960px;
+}
+article p{
+	padding: 10px;
+	margin: 10px;
+}
+#home-boxes img{
+	border: 6px solid #E2E2E2;
+	/*margin-left: 100px;
+	width: 290px;
+	padding:10px;*/
+}
+#home-boxes{
+	width: 960px;
+/*	margin-left: 100px;
+	width: 290px;
+	padding:10px;*/
+	/*margin-left: 60px;*/
+	/*margin: 0 auto;*/
+}
+.home_box1{
+	margin-left: 100px;
+	width: 290px;
+	float: left;
+}
+.home_box2{
+	/*margin: 40px;*/
+	float: left;
+	/*clear: fix;*/
+	/*margin-left: 40px;*/
+	width: 290px;
+	padding-left: 10px;
+
+}
+.home_box3{
+	/*margin: 40px;*/
+	float: left;
+	/*clear: fix;*/
+	/*margin-left: 40px;*/
+	width: 290px;
+	padding-left: 10px;
+	/*margin-right: 0;
+	overflow:hidden;*/
 }
