@@ -53,13 +53,13 @@ article img{
 	margin-left: 10px;
 	float: right;
 	padding-top: 15px;
-	
 }
 article{
 	border: 1px solid;
 	margin-left: 100px;
 	width: 960px;
 }
+
 article p{
 	padding: 10px;
 	margin: 10px;
@@ -71,7 +71,7 @@ article p{
 	padding:10px;*/
 }
 #home-boxes{
-	width: 960px;
+	width: 1100px;
 /*	margin-left: 100px;
 	width: 290px;
 	padding:10px;*/
@@ -87,18 +87,47 @@ article p{
 	/*margin: 40px;*/
 	float: left;
 	/*clear: fix;*/
-	/*margin-left: 40px;*/
+	margin-left: 40px;
 	width: 290px;
-	padding-left: 10px;
+	/*padding-left: 40px;*/
 
 }
 .home_box3{
 	/*margin: 40px;*/
 	float: left;
 	/*clear: fix;*/
-	/*margin-left: 40px;*/
+	margin-left: 40px;
 	width: 290px;
-	padding-left: 10px;
+	/*padding-left: 40px;*/
 	/*margin-right: 0;
 	overflow:hidden;*/
+}
+#home-boxes p{
+	font-size: 10pt;
+}
+#home-boxes a{
+	font-size: 10pt;
+}
+footer{
+	background-color: black;
+	width: 100%;
+	clear:both;
+	padding-top: 50px;
+}
+p a{
+	font-size: 13px;
+	color: #515151;
+}	
+.blogroll{
+	color: #CCCCCC;
+	
+}
+#blogger{
+	width: 210px;
+	margin-left: 100px;
+	/*float: left;*/
+	/*clear: both;*/
+}
+.copyright{
+	color: #515151;
 }
