@@ -1,0 +1,88 @@
+.center {
+	width: 960px; 
+	margin-left: 100px;
+	margin: 0 auto;
+	color: black;
+
+}
+header{
+	background-color: blue;
+	/*clear:both;*/
+	overflow: hidden;
+	/*margin: 40px;*/
+}
+header img{
+	float: left;
+	overflow: hidden;
+}
+nav a {
+	float: right;
+	display: block;
+	height: 30px;
+	color: red;
+	padding: 15px 0 15px 15px;
+	font-size: 17px;
+	text-decoration: none;
+	/*clear: both;*/
+	overflow: hidden;
+}
+nav a:hover {
+	text-decoration: none;
+	background-color: white;
+	color: black;
+}
+#profilePic {
+	background: url("../images/ronSwanson.jpg") no-repeat;
+	display: block;
+	width: 250px;
+	height: 250px;
+	float: left; 
+
+	text-indent: -9999px;
+	/*clear: both;*/
+	overflow: hidden;
+	/*padding-bottom: 25px;*/
+	position: relative;
+}
+#morePics{
+	display: inline;
+	float: left;
+	clear: both;
+	padding-top: 10px;
+	/*padding-right: 20px;*/
+	/*overflow: hidden;*/
+	/*padding: 20px 50px 0px 0px;*/
+	/*padding-left: 20px;*/
+	/*how can i get these pics to spread out?!*/
+}
+h1{
+	font-size: 20px;
+	/*margin: 20px 50px 20px 50px;*/
+	padding: 10px 0;
+	/*float: left;
+	/*clear: both;
+	*//*padding: 20px 50px 20px 0px;*/
+}
+p{
+	font-size: 16px;
+	/*text-indent: 20px;*/
+	border: 5px solid red;
+	padding: 10px 0;
+	/*margin-left: 20px;*/
+/*	float: left;
+	clear: both;*/
+}
+#stats {
+	float: left;
+	clear: both;
+	width: 300px;
+}
+#main{
+	padding-top: 20px;
+	/*padding: 20px 0px 0px 20px;*/
+	/*margin-right: 20px;
+	margin-left: 20px;*/
+}
+.column{
+	/*padding-right: 20px;*/
+}
