@@ -1,12 +1,23 @@
+body{
+	color: #835C3B;
+	background-color: #FBF6D9;
+}
 .center {
 	width: 960px; 
 	margin-left: 100px;
 	margin: 0 auto;
-	color: black;
+	
 
 }
+section{
+	width: 1200px; 
+	/*padding: 100px;*/
+	/*margin-left: 80px;*/
+	/*margin: 0 auto;*/
+	float: left;
+}
 header{
-	background-color: blue;
+	background-color: #835C3B;
 	/*clear:both;*/
 	overflow: hidden;
 	/*margin: 40px;*/
@@ -14,24 +25,25 @@ header{
 header img{
 	float: left;
 	overflow: hidden;
+	padding-top: 30px;
 }
 nav a {
 	float: right;
 	display: block;
 	height: 30px;
-	color: red;
-	padding: 15px 0 15px 15px;
+	color: #FBF6D9;
+	padding: 5px 0 5px 15px;
 	font-size: 17px;
 	text-decoration: none;
-	/*clear: both;*/
 	overflow: hidden;
+	
 }
 nav a:hover {
 	text-decoration: none;
 	background-color: white;
 	color: black;
 }
-#profilePic {
+section a {
 	background: url("../images/ronSwanson.jpg") no-repeat;
 	display: block;
 	width: 250px;
@@ -41,33 +53,37 @@ nav a:hover {
 	text-indent: -9999px;
 	/*clear: both;*/
 	overflow: hidden;
+	margin-right: 20px;
+	margin-left: 190px;
+	margin-top: 20px;
 	/*padding-bottom: 25px;*/
-	position: relative;
+	/*position: relative;*/
 }
-#morePics{
-	display: inline;
+section #morePics{
+	/*display: inline-block;*/
 	float: left;
 	clear: both;
 	padding-top: 10px;
-	/*padding-right: 20px;*/
-	/*overflow: hidden;*/
-	/*padding: 20px 50px 0px 0px;*/
-	/*padding-left: 20px;*/
-	/*how can i get these pics to spread out?!*/
+	margin-right: 20px;
+	margin-left: 190px;
+	
 }
-h1{
+section h1{
 	font-size: 20px;
 	/*margin: 20px 50px 20px 50px;*/
-	padding: 10px 0;
+	padding: 20px 0 0 0;
+	font-family: "Sanchez";
+	/*margin-right: 20px;*/
 	/*float: left;
 	/*clear: both;
 	*//*padding: 20px 50px 20px 0px;*/
 }
-p{
+section p{
 	font-size: 16px;
+	font-family: "Cabin";
 	/*text-indent: 20px;*/
-	border: 5px solid red;
 	padding: 10px 0;
+	/*margin-right: 20px;*/
 	/*margin-left: 20px;*/
 /*	float: left;
 	clear: both;*/
@@ -75,14 +91,20 @@ p{
 #stats {
 	float: left;
 	clear: both;
-	width: 300px;
+	width: 275px;
+	margin-left: 190px;
+	font-family: "Cabin";
+	list-style-type: none;
+	padding-top: 5px;
 }
-#main{
-	padding-top: 20px;
-	/*padding: 20px 0px 0px 20px;*/
-	/*margin-right: 20px;
-	margin-left: 20px;*/
+ul li{
+	font-family: "Cabin";
 }
-.column{
-	/*padding-right: 20px;*/
+#logo{
+	font-size: 80px;
+	font-family: "Sanchez";
+	color: white;
+	float: right;
+	overflow: hidden;
+	padding-top: 80px;
 }
