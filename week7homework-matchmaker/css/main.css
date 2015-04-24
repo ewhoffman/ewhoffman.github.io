@@ -1,0 +1,347 @@
+#page-header{
+	border-bottom: 3px;
+	border-style: solid;
+	border-color: yellow;
+	background-color: black;
+	overflow: hidden;
+	/*height: 40px;
+	line-height: 40px*/
+
+}
+
+header h1 a {
+font-family: Merriweather;	
+font-size: 20px;
+color: yellow;
+float: left;
+text-decoration: none;
+padding-left: 2.5%;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+#innernav{
+	float: right;
+	/*height: 40px;*/
+	line-height: 40px;
+	padding-right: 20px;
+	padding-top: 1%;
+	width: 50%;
+}
+#innernav a{
+	font-family: "Source Sans Pro";
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	float: left;
+	/*padding: 0 10px;*/
+	width: 20%;
+}
+#innernav strong{
+	font-family: Oswald;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.tagline{
+	background-color: #d6dbe3;
+	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+#taste{
+	text-decoration: line-through;
+	color: rgba(0,0,0,0.4);
+}
+#are{
+	border-bottom: 2px;
+	border-style: solid;
+	border-color: yellow;
+}
+.banner{
+	background-image: url("../images/coworking.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 400px;
+}
+.blurb{
+	float:right;
+	background-color: rgba(193,196,192,0.8);
+	width: 30%;
+	margin-right: 10%;
+	margin-top: 10%;
+	height: 35%;
+	/*background-color: #d6dbe3;*/
+
+	/*height: 50%;
+	margin: 20px 100px 20px 0;*/ 	
+}
+/*.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	float:right;
+	background-color: rgba(193,196,192,0.7);
+	width: 30%;
+	height: 50%;
+	margin: 20px 100px 20px 0; 
+}*/
+.blurb h2{
+	font-family: Oswald;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	/*clear: both;*/
+}
+.blurb p{
+	font-family: "Source Sans Pro";
+	font-size: 10px;
+	overflow: hidden;
+	padding-bottom: 5%;
+	line-height: 120%;
+	padding-left: 5%;
+	/*clear: both;*/
+}
+.blurb a{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+.blurb .button{
+	background-color: Yellow;
+	font-family: Oswald;
+	font-size: 12px;
+	text-transform: uppercase;
+	height: 5%;
+	line-height: 5%;
+	overflow: hidden;
+	padding-bottom: 5%;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 25%;
+	/*clear:both;*/
+}
+.callouts{
+	/*float: left;*/
+	overflow: hidden;
+	background-color: #ececec;
+	padding-bottom: 3%;
+	
+}
+.callouts .callout{
+	float: left;
+	width: 30%;	
+	height: 30%;
+	margin-left: 2.5%;
+	
+	/*display: inline;*/
+}	
+.callout h3{
+	font-family: Merriweather;
+	font-size: 16px;
+	margin-top: 15%;
+	margin-bottom: 3.5%;
+
+}
+.callout p{
+	font-family: "Source Sans Pro";
+	font-size: 14px; 
+	line-height: 150%;
+	padding-bottom: 8%;
+}
+
+.callout a{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-right: 10%;
+	padding-left: 10%;
+
+}
+.callout .button{
+	background-color: #d6dbe3;
+	font-family: Oswald;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	/*width: 40px;
+	height: 16px;
+	line-height: 16px;*/
+	/*margin: 20px 0px 25px;*/
+	margin-left: 25%;
+
+	/*overflow: hidden;*/
+}
+#border{
+	border-right: 1px;
+	border-left: 1px;
+	border-style: solid;
+	border-color: gray;
+	padding-left: 5px;
+
+}
+footer{
+	background-color: black;
+	clear: both;
+	height: 30%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	/*line-height: 50px;*/
+}
+.wrapper{
+	color: white;
+	font-family: Oswald;
+	font-size: 16px;
+	padding-left: 2.5%;
+}
+
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+#hamburger {
+	font-size: 2em;
+	display: none;
+	background-color: black;
+	color: yellow;
+	text-decoration: none;
+	float: center;
+}
+@media only screen and (min-width:1300px){
+	body{
+		width: 1080px;
+	}
+}
+@media only screen and (max-width: 1060px){
+	#innernav a{
+		font-size: 14px;
+	}
+	#innernav strong{
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width: 900px){
+	.wrapper{
+		font-size: 14px;
+		font-family: "Source Sans Pro";
+	}
+	#innernav{
+		float: left;
+	}
+	header h1 a{
+		padding-right: 10px;
+	}
+	#innernav a{
+		font-size: 12px;
+	}
+	#innernav strong{
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 800px){
+	header h1 a{
+		float: none;
+		margin-top: 10px;
+
+		/*padding-left: 50%;*/
+	}
+	/*#innernav{
+		float: none;
+	}*/
+	nav a {
+		float: none;
+		/*width: auto;*/
+		font-size: 16px;
+		padding: 10px;
+	}
+	#hamburger {
+		display: block;
+		text-align: center;
+	}
+	#innernav {
+		display: none;
+		width: 100%;
+	}	
+	#innernav a{
+		display: block;
+		line-height: 20px;
+		padding: 0%;
+		float: none;
+		width: auto;
+		/*padding-right: 0;*/
+		
+		/*padding-top: 5%;*/
+		/*float: center;*/
+		text-align: center;
+	}
+	.callout h3{
+		font-size: 14px;
+	}
+	.callout p{
+		font-size: 12px;
+	}
+	.callout a{
+		font-size: 12px;
+		padding-right: 5%;
+		padding-left: 5%;
+		/*width: none;*/
+	}
+	.callout .button{
+		margin-left: 15%;
+	}
+}	
+@media only screen and (max-width: 600px){
+	.banner{
+		background-repeat: no-repeat;
+	}
+.callout .button{
+		margin-left: 5%;
+	}
+	.blurb .button{
+		margin-left: 15%;
+	}
+	.banner{
+		height: auto;
+}
+@media only screen and (max-width: 470px){
+	.callouts .callout{
+		float: none;
+		width: auto;	
+		height: 10%;
+		margin-left: none;
+	}
+	.callout p{
+		padding-bottom: 4%;
+	}
+	.blurb h2{
+		font-size: 14px;
+	}
+	#border{
+		border-style: none;
+	}
+	.banner{
+		height: auto;
+	}	
+	.blurb .button{
+		margin-left: 5%;
+		width: auto;
+}
+@media only screen and (max-width: 380px){
+	.blurb{
+		width: 50%;
+	}
+}
