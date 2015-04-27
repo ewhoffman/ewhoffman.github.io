@@ -1,0 +1,36 @@
+body{
+	font-size: 20px;
+	background: url("../images/cloud_2.gif") center center;
+	background-repeat: repeat;
+	background-size: 50%;
+	overflow: hidden;
+}
+
+#grass{
+	background-color: #03C03C;
+	position: fixed;
+	width: 100%;
+	height: 25%;
+	bottom: 0;
+}
+h1{
+	font-family: Courier, monospace;
+	font-size: 3em;
+	width: 100%;
+	text-align: center;
+	color: yellow;
+	margin-top: 20px;
+	position: absolute;
+	overflow: hidden;
+}
+#sun{
+	position: relative;
+	float: right;
+
+}
+#tree{
+	position: absolute;
+	bottom: 20%;
+	left: 70%;
+
+}

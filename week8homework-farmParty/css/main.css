@@ -1,0 +1,51 @@
+body{
+	font-size: 20px;
+	background: url("../images/cloud_2.gif") center center;
+	background-repeat: repeat;
+	background-size: 50%;
+	overflow: hidden;
+}
+
+#grass{
+	background-color: #03C03C;
+	position: fixed;
+	width: 100%;
+	height: 25%;
+	bottom: 0;
+	overflow: hidden;
+}
+h1{
+	font-family: Courier, monospace;
+	font-size: 3em;
+	width: 60%;
+	padding-left: 20%;
+	text-align: center;
+	color: yellow;
+	margin-top: 20px;
+	position: absolute;
+	overflow: hidden;
+}
+#sun{
+	position: absolute;
+	display: none;
+	float: left;
+	left: 8%;
+	top: -20%;
+}
+#tree{
+	position: absolute;
+	display: none;
+	bottom: -30%;
+	left: 70%;
+}
+#rooster1{
+	position: absolute;
+	bottom: 24%;
+	left:50%;
+}
+#rooster2{
+	position: absolute;
+	display: none;
+	left: -30%;
+	bottom: 24%;
+}
