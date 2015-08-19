@@ -1,0 +1,237 @@
+body{
+	font-family: Cabin;
+	font-size: 20px;
+	color: black;
+	line-height: 1.75;
+	background: url("../images/brownstones2.jpg");
+	background-repeat: repeat;
+	background-size: cover;
+	/*overflow: hidden;*/
+	/*background-color: #00FFAB;*/
+}
+.center{
+	margin: 0 auto;
+	width: 960px;
+	/*background: url("../images/neighborhood1.jpg")center center no-repeat;
+	background-size: cover;
+	overflow: hidden;*/
+}
+header{
+	background-color: rgba(174,189,186, 0.9);
+	height: 80px;
+	line-height: 100px;
+	width: 80%;
+	position: fixed;
+	top: 0px;
+	left: 126px;
+	margin: 0 auto;
+	margin-bottom: 10%;
+	
+}
+header a{
+	font-family: "Pacifico";
+	font-size: 2.00em;
+	padding-top: 1%;
+	float: left;
+	overflow: hidden;
+	text-decoration: none;
+	color: black;
+
+}
+#social-media {
+	float: right; 
+	padding: 40px 0 20px 0;
+}
+
+#social-media a {
+	float: left;
+	background-image: url("../images/socialMedia.png");
+	margin: 3px 8px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+
+	display: block;
+	width: 33.75px;
+	height: 33px;
+	line-height: 33px;
+}
+
+#social-media a.facebook {
+	background-position: 0px -33px;
+}
+
+#social-media a.twitter {
+	background-position: -34px -33px;
+}
+#social-media a.googleMaps {
+	background-position: -67px -33px;
+}
+
+#social-media a.pinterest {
+	background-position: -101px -33px;
+}
+
+#social-media a.facebook:hover {
+	background-position: 0px 0px;
+}
+
+#social-media a.twitter:hover {
+	background-position: -34px 0px;
+}
+
+#social-media a.googleMaps:hover {
+	background-position: -67px 0px;
+}
+
+#social-media a.pinterest:hover {
+	background-position: -101px 0px;
+}
+#data {
+	width: 80%;
+	font-size: 2.5em;
+	border: none;
+	/*margin: 0;*/
+	text-align: center;
+	background-color: rgba(174,189,186, 0.9);
+	height: 150px;
+	line-height: 150px;
+	/*position: absolute;
+	top: 30%;
+	right: 10%;*/
+	/*margin-bottom: 10%;*/
+	margin-top: 10%;
+	margin-left: 125px;
+}
+#data input{
+	/*width: 45%;*/
+	font-size: .5em;
+	border: none;
+	margin: 0;
+	text-align: center;
+	height: 50px;
+
+}
+#address{
+	width: 45%;
+	background-color: gray;
+}
+#submit{
+	background-color: #FF5353;
+}
+#neighborhood{
+	width: 80%;
+	font-size: 1.5em;
+	border: none;
+	margin: 0;
+	background-color: rgba(174,189,186, 0.9);
+	height: 125px;
+	/*position: absolute;
+	top: 60%;
+	right: 10%;*/
+	margin-top: 10%;
+	margin-bottom: 5%;
+	margin-left: 125px;
+	overflow: hidden;
+	/*display: none;*/
+}
+#neighborhood h1{
+	font-family: 'Sanchez', serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 1.0em;
+	line-height: 1;
+	padding-bottom: 8px;
+}
+nav a{
+	font-size: .65em;
+	float: left;
+	text-decoration: none;
+	color: #b20a2c;
+	padding: 2.5%;
+	font-family: "Josefin Sans";
+}
+nav a:hover{
+	background-color: white;
+}
+#transportation, #parks{
+	background-color: rgba(174,189,186, 0.9);
+	height: 350px;
+	width: 80%;
+	/*clear: both;*/
+	overflow: hidden;
+	/*position: absolute;
+	top: 80%;
+	right: 10%;*/
+	margin-bottom: 10%;
+	margin-left: 125px;	
+	/*display: none;*/
+}
+#map-canvas1, #map-canvas2{
+	float: left;
+	height: 100%; 
+	width: 60%; 
+	margin: 0; 
+	padding: 0;
+}
+#transportation ol, #parks ol{
+	float: right;
+	text-decoration: none;
+	/*padding-right: 1%;*/
+	font-size: .7em;
+	width: 37%;
+	font-size: .8em;
+	color: black;
+}
+footer{
+	width: 80%;
+	font-size: .75em;
+	border: none;
+	margin: 0;
+	background-color: rgba(174,189,186, 0.9);
+	height: 100px;
+	line-height: 100px;
+	margin-left: 126px;
+	/*clear:both;*/
+	/*overflow: hidden;*/
+}
+footer .center{
+	overflow: hidden;
+}
+footer h2{
+	width: 25%;
+}
+#social-media2 {
+	float: right; 
+	padding: 40px 0 20px 0;
+}	
+.email{
+	width: 64px;
+	height: 64px;
+	padding: 1%;
+	background: url("../images/email.png") no-repeat;
+	display: block;
+	float: right;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+.tweet{
+	width: 64px;
+	height: 64px;
+	padding: 1%;
+	background: url("../images/twitter-icon.png") no-repeat;
+	display: block;
+	float: right;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+.instagram{
+	width: 64px;
+	height: 64px;
+	padding: 1%;
+	background: url("../images/instagram.png") no-repeat;
+	display: block;
+	float: right;
+	text-indent: -9999px;
+	overflow: hidden;
+}

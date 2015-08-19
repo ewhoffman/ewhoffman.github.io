@@ -1,0 +1,85 @@
+<!DOCTYPE html>	
+<html>
+	<head>
+	<meta name="keywords" content="neighborhood, Welcome Home, transportation, NYC, parks, schools, community gardens, voter registration">
+	<meta name="author" content="Eric William Hoffman">
+	<meta name="description" content="A site devoted to helping you learn the ins and outs of your new neighborhood.">
+	<meta name="copyright" content="2015 Eric William Hoffman">		
+		<title>Welcome Home!</title>
+		<!--<style type="text/css">
+      html, body, #map-canvas { float: left; height: 100%; width:60%; margin: 0; padding: 0;}
+    </style>-->
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7WI6BacpzTu_WFGzxchSm0kkN69zlL9M">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: { lat: 40.666094, lng: -73.952721},
+          zoom: 15
+        };
+        var map = new google.maps.Map(document.getElementById('map-canvas1'),
+            mapOptions);
+        // Markers
+        var myPosition = new google.maps.LatLng(40.666094, -73.952721);
+      var marker = new google.maps.Marker({ position: myPosition, map: map, title: "Welcome Home!" });
+      var myPosition = new google.maps.LatLng(40.668107, -73.950970);
+      var marker = new google.maps.Marker({ position: myPosition, map: map, title: "1 & 2) President St. 2/5 Trains" });
+      var myPosition = new google.maps.LatLng(40.669751, -73.950434);
+      var marker = new google.maps.Marker({ position: myPosition, map: map, title: "3) Nostrand Ave. 3 Train" });
+      var myPosition = new google.maps.LatLng(40.665910, -73.953652);
+      var marker = new google.maps.Marker({ position: myPosition, map: map, title: "4) B49 Bus to Fulton St." });
+      var myPosition = new google.maps.LatLng(40.663647, -73.954167);
+      var marker = new google.maps.Marker({ position: myPosition, map: map, title: "5) B43 Bus to Manhattan Ave." });
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">	 
+		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Sanchez:400italic' rel='stylesheet' type='text/css'>
+	</head>	
+	<body>
+		<header>
+			<div class="center">
+				<a href="index.html">Welcome Home!</a>
+				<div id="social-media">	
+					<a href"#" class="facebook">Facebook</a>
+					<a href"#" class="twitter">Twitter</a>
+					<a href"#" class="googleMaps">Google Maps</a>
+					<a href"#" class="pinterest">Pinterest</a>	
+
+				</div>		
+		</header>
+			<div id="neighborhood">
+				<h1> Welcome to Crown Heights!</h1>
+					<nav>
+						<a href="transportation.html" class="transportation">Transportation</a>
+						<a href="parks.html" class="parks">Parks</a>
+						<a href="communityGardens.html" class="communityGardens">Community Gardens</a>
+						<a href="schools.html" class="schools">Schools</a>
+						<a href="voterRegistration.html" class="voterRegistration">Voter Registration</a>
+						<a href="neighborhoodHistory.html" class="neighborhoodHistory">Neighborhood History</a>
+					</nav>	
+				</div>	
+				<div id="transportation">
+					<div id="map-canvas1">
+					</div>
+					<ol>
+				        <li>The 5 train at President Street goes expess in Brooklyn and Manhattan</li>
+				        <li>The 2 train at President Street goes express in Manhattan</li>
+				        <li>The 3 train at Nostrand Avenue also goes express in Manhattan</li>
+				        <li>The B49 bus goes up Rodgers Avenue and Bedford Avenue</li>
+				        <li>The B43 on Empire Boulevard goes through Bed-Stuy and Williamsburg before ending in Greenpoint </li>
+			      	</ol>  
+
+				</div>	
+			</div>	
+			</div>	
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/project.js"></script>
+	</body>	
+</html>
